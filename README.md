@@ -32,6 +32,6 @@ Numbers are seats available in First (F), Business (J), Premium Economy (PY) and
 
 ## Support
 
-If this found you a seat, you can buy me a coffee:
+If this found you a seat, you can buy me a coffee. Scan with the PayPal app:
 
-[![Buy me a coffee via PayPal](https://img.shields.io/badge/Buy%20me%20a%20coffee-PayPal-00457C?logo=paypal&logoColor=white)](PAYPAL_LINK_HERE)
+<img src="paypal-qr.png" alt="PayPal QR code" width="200">
