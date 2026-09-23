@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "CX Award Checker",
+  "version": "1.4",
+  "description": "Check Cathay Pacific Asia Miles award seat availability.",
+  "action": {
+    "default_title": "Open CX Award Checker"
+  },
+  "host_permissions": [
+    "https://api.cathaypacific.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://book.cathaypacific.com/CathayPacificAwardV3/*"
+      ],
+      "js": [
+        "results.js"
+      ],
+      "world": "MAIN",
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://book.cathaypacific.com/CathayPacificAwardV3/*"
+      ],
+      "js": [
+        "bridge.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://www.cathaypacific.com/cx/*/book-a-trip/redeem-flights/redeem-flight-awards.html*"
+      ],
+      "js": [
+        "search-error.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "permissions": [
+    "sidePanel",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
