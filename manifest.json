@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "CX Award Checker",
+  "name": "CX_flight_award_searcher",
   "version": "1.4",
   "description": "Check Cathay Pacific Asia Miles award seat availability.",
   "action": {
-    "default_title": "Open CX Award Checker"
+    "default_title": "Open CX_flight_award_searcher"
   },
   "host_permissions": [
     "https://api.cathaypacific.com/*"

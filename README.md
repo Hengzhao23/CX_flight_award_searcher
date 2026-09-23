@@ -1,4 +1,4 @@
-# CX Award Checker
+# CX_flight_award_searcher
 
 A Chrome extension that finds Cathay Pacific award seats you can book with Asia Miles. Search a whole date range in one go, see seats for every cabin, and click any result to open it on cathaypacific.com.
 
@@ -20,7 +20,7 @@ The extension isn't in the Chrome Web Store yet, so you load it from this folder
 2. Open `chrome://extensions` in Chrome.
 3. Turn on **Developer mode** with the switch in the top-right corner.
 4. Click **Load unpacked** and choose the unzipped folder.
-5. Pin the extension: click the puzzle-piece icon in the toolbar, then the pin next to **CX Award Checker**.
+5. Pin the extension: click the puzzle-piece icon in the toolbar, then the pin next to **CX_flight_award_searcher**.
 
 To update later, download the new version and click the reload arrow on the extension's card in `chrome://extensions`.
 
