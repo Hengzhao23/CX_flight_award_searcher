@@ -24,12 +24,6 @@ Needs Chrome 114 or newer.
 
 Numbers are seats available in First (F), Business (J), Premium Economy (PY) and Economy (Y).
 
-## Tips
-
-- Award seats open about 360 days ahead. Later dates return an error.
-- If Cathay stops your search, wait a while and search again from that date.
-- Always confirm seats on Cathay before transferring miles.
-
 ## Support
 
 If this found you a seat, you can buy me a coffee. Scan with the PayPal app:
